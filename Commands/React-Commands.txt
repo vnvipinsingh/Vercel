@@ -9,3 +9,5 @@ Steps to create react app
 Steps to install bootstrap
 1. Add bootstrap
     npm install bootstrap
+2. Add css to src/index.js
+    import 'bootstrap/dist/css/bootstrap.min.css';
