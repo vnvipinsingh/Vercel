@@ -1,0 +1,22 @@
+Steps to create and add ssh key in github account
+1. Create SSH Key
+    ssh-keygen -t ed25519 -C "135263276+vnvipinsingh@users.noreply.github.com"
+2. Start SSH Agent
+    eval "$(ssh-agent -s)"
+3. Add your SSH key
+    ssh-add ~/.ssh/id_ed25519
+4. Copy your SSH public key
+    cat ~/.ssh/id_ed25519.pub
+5. Add public SSH key to your github account
+
+Steps to create branch in git hub
+1. Check current branch
+    git branch
+2. Create new branch
+    git checkout -b episode-01
+3. Push the branch
+    git push -u origin episode-01
+
+Steps to change to main branch
+1. Switch to main branch
+    git checkout main

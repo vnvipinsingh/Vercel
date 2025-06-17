@@ -1,0 +1,11 @@
+Steps to create react app
+1. Create react app
+    npx create-react-app star-war-app
+2. Change to the directory star-war-app
+    cd star-war-app
+3. Start the react app
+    npm start
+
+Steps to install bootstrap
+1. Add bootstrap
+    npm install bootstrap
