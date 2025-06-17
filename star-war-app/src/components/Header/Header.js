@@ -1,5 +1,5 @@
 import Nav from '../Nav/Nav';
-import './header.css';
+import './header.css'
 export default function Header(){
     return(
         <div className="p-5 container-fluid bg-primary">
